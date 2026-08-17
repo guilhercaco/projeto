@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  position: 0;
+  cursor:grab; 
+}
+body{
+  background-color: #439D4E; 
+  
+}
+.logo{
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  height: 60px;
+}
+.logo h3{
+  display: flex;
+}
+.informacao{
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 100px;
+}
+.informacao a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
