@@ -4,6 +4,7 @@ import carrinho from "./assets/carrinho.png"
 
 function App() {
   return (
+      <div>
       <div class="logo">
         <h3>MFM</h3>
         <div class="informacao">
@@ -16,6 +17,10 @@ function App() {
           <a href="#">CARRINHO</a>
           <img src={carrinho} alt="carrinho" />
         </div>
+      </div>
+      <div class="propaganda">
+        
+      </div>
       </div>
 
         
