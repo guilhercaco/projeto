@@ -11,19 +11,51 @@ body{
   background-color: black;
   color: #fff;
   margin: 0;
-  height: 60px;
+  height: 65px;
 }
 .logo h3{
   display: flex;
 }
 .informacao{
-  align-items: center;
-  flex-direction: row;
-  display: flex;
-  gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+  
 }
 .informacao a{
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
+  cursor:unset;
+  
+}
+.informacao img{
+    height: 30px;
+    
+}
+.barra-pesquisa input{
+    color: #000000;
+    margin-left: 6px;
+    width: 400px;        
+    height: 25px;        
+    border: 3px #000; 
+    border-left: 4px solid #000;
+    border-radius: 10px;
+    padding: 0 10px;
+       
+}
+.barra-pesquisa button{
+    height: 25px;
+    border: 3px #000;
+    border-right: 4px solid #000;
+    border-radius: 10px;
+}
+.propaganda{
+    width: 97%;
+    height: 200px;
+    margin-top: 40px;
+    justify-self:center;
+    background-color: #777777;
 }
