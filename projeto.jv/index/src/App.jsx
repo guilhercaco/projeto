@@ -4,6 +4,7 @@ import carrinho from "./assets/carrinho.png"
 
 function App() {
   return (
+      <div>
       <div class="logo">
         <h3>MFM</h3>
         <div class="informacao">
